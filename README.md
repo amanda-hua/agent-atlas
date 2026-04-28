@@ -9,8 +9,7 @@ Starting with an ACH agent — where decisions directly impact money movement.
 ---
 
 ## Why this exists
-
-Most AI systems fail not because of the model, but because the system around it was optimized in pieces, never as a whole — and AI still can't design the whole.
+Most AI systems don’t fail because of the model — they fail because the surrounding system was optimized in pieces, not as a whole — and AI still can't design the whole.
 Agent Atlas is the decision layer that makes AI systems reliable in production:
 
 - make decisions and recommendations reliably
