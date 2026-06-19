@@ -116,4 +116,4 @@ Building systems for real-time decisioning across payments, operations, and AI w
 
 ---
 
-*Last updated: April 2026*
+*Last updated: June 2026*
