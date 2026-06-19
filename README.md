@@ -26,6 +26,7 @@ Agent Atlas enables:
 - **Simulation before action** (evaluate outcomes before committing)
 - **Policy as data** (versioned, testable, evolvable)
 - **Continuous feedback loops** (systems improve with every decision)
+- **Operator oversight** (humans stay in the loop where it matters)
 
 ---
 
@@ -92,13 +93,14 @@ A new user on a free trial requests a **5× transaction limit increase**.
 Agent Atlas is designed as a framework, not a single agent. Current and planned coverage:
 
 - ✅ ACH operations — end-to-end ACH agent handling risk and failure detection, cause analysis, recommendation, retry decisioning, recovery, disputes, and reconciliation
+- ✅ Agentic Commerce — policy-governed autonomous purchasing decisions, consent enforcement, and dispute resolution
 - ⏳ Additional operational workflows as design partners onboard
 
 ---
 
 ## Status
 
-Actively building with a design partner in payments operations.
+Actively building with design partners across payments and commerce operations.
 
 This repository shares system design and working patterns.
 Implementation lives in private repos.
