@@ -10,7 +10,7 @@ We started with ACH and payment exception workflows — where every decision dir
 
 ---
 
-## Why Agent Atlas?
+## Why this exists?
 
 Most AI systems are optimized to produce an answer.
 
