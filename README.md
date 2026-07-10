@@ -1,10 +1,14 @@
 # Agent Atlas
 
-The decision layer for real-world AI systems.
+Governed execution loops for production AI workflows.
 
-Agent Atlas is a framework for building and deploying agents that make decisions directly inside operational workflows.
+Agent Atlas governs when AI outputs are allowed to become enterprise actions.
 
-Starting with an ACH agent — where decisions directly impact money movement.
+As AI systems move from generating recommendations to issuing payments, changing orders, approving exceptions, and executing operational workflows, intelligence alone is not enough. Production AI also needs explicit permissions, policy controls, human checkpoints, execution lineage, and feedback from real outcomes.
+
+Agent Atlas provides that control layer.
+
+We started with ACH and payment exception workflows, where decisions directly affect money movement and where policy, risk, human judgment, and auditability are unavoidable. We are now extending the same governed execution architecture across other critical workflows.
 
 ---
 
