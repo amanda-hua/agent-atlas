@@ -6,7 +6,7 @@ Agent Atlas governs when AI outputs are allowed to become enterprise actions.
 
 As AI systems move from generating recommendations to issuing payments, changing orders, approving exceptions, and executing operational workflows, intelligence alone is not enough. Production AI also needs explicit permissions, policy controls, human checkpoints, execution lineage, and feedback from real outcomes.
 
-Agent Atlas provides that control layer.
+Agent Atlas provides the governance layer between AI intelligence and enterprise execution.
 
 We started with ACH and payment exception workflows, where decisions directly affect money movement and where policy, risk, human judgment, and auditability are unavoidable. We are now extending the same governed execution architecture across other critical workflows.
 
