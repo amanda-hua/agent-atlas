@@ -9,7 +9,15 @@ As AI systems move from generating recommendations to issuing payments, changing
 We started with ACH and payment exception workflows — where every decision directly affects money movement and demands policy enforcement, risk controls, human judgment, and complete auditability. We are now extending the same governed execution architecture across other mission-critical workflows.
 
 ---
+## Recognition
 
+🏆 **2026 API Award** — Best Payment API
+
+🏆 **2026 CloudX Award** — Cloud Application Platforms
+
+Agent Atlas was recognized by DevNetwork's independent advisory boards for innovation in API technology and cloud application platforms.
+
+---
 ## Why this exists?
 
 Most AI systems are optimized to produce an answer.
