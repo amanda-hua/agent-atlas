@@ -1,123 +1,82 @@
 # Agent Atlas
 
-Governed execution loops for production AI workflows.
+**Governed execution for production AI.**
 
-Agent Atlas governs when AI outputs are allowed to become enterprise actions.
+> Agent Atlas is the governance layer between AI intelligence and enterprise execution.
 
-As AI systems move from generating recommendations to issuing payments, changing orders, approving exceptions, and executing operational workflows, intelligence alone is not enough. Production AI also needs explicit permissions, policy controls, human checkpoints, execution lineage, and feedback from real outcomes.
+As AI systems move from generating recommendations to issuing payments, changing orders, approving exceptions, and executing operational workflows, intelligence alone is not enough. Production AI requires explicit permissions, policy controls, human checkpoints, execution lineage, and continuous feedback from real-world outcomes.
 
-Agent Atlas provides the governance layer between AI intelligence and enterprise execution.
-
-We started with ACH and payment exception workflows, where decisions directly affect money movement and where policy, risk, human judgment, and auditability are unavoidable. We are now extending the same governed execution architecture across other critical workflows.
+We started with ACH and payment exception workflows — where every decision directly affects money movement and demands policy enforcement, risk controls, human judgment, and complete auditability. We are now extending the same governed execution architecture across other mission-critical workflows.
 
 ---
 
-## Why this exists
-Most AI systems don’t fail because of the model — they fail because the surrounding system was optimized in pieces, not as a whole — and AI still can't design the whole.
-Agent Atlas is the decision layer that makes AI systems reliable in production:
+## Why Agent Atlas?
 
-- make decisions and recommendations reliably
-- explain outcomes
-- enable systems to improve over time in production
+Most AI systems are optimized to produce an answer.
 
----
+Production systems must also determine:
 
-## What Agent Atlas does
+- Is the available context sufficient?
+- Is this action permitted?
+- Which policies and constraints apply?
+- Should execution proceed, pause, or escalate?
+- Can the complete decision be reconstructed?
 
-Agent Atlas enables:
+The hard part is not generating intelligence.
 
-- **Decision-making inside workflows** (not outside as a tool)
-- **Simulation before action** (evaluate outcomes before committing)
-- **Policy as data** (versioned, testable, evolvable)
-- **Continuous feedback loops** (systems improve with every decision)
-- **Operator oversight** (humans stay in the loop where it matters)
+**The hard part is governing execution.**
 
 ---
 
-## Example: ACH payment decision
+## What Agent Atlas Governs
 
-**Scenario**
-
-A new user on a free trial requests a **5× transaction limit increase**.
-
----
-
-**Agent Atlas evaluates:**
-
-1. **Simulate outcomes**
-
-- Approve → higher volume, higher failure risk
-- Constrain → moderate volume, controlled risk
-- Deny → no risk, no recovery
-
-2. **Compare expected outcomes**
-
-3. **Recommend only if the system improves**
+- **Context Sufficiency** — Determine whether enough reliable information exists to act.
+- **Action Permission** — Enforce business policies, authorization, and risk controls.
+- **Runtime Governance** — Approve, constrain, pause, decline, or escalate execution.
+- **Decision Lineage** — Record the complete decision and execution path.
+- **Feedback Memory** — Improve future decisions from operational outcomes.
 
 ---
 
-**Output**
+## Example
 
-→ Recommendation: **Constrain limit increase**
-→ Reason: maximizes expected recovery while controlling failure risk
+A payment exception requires a pay-or-return decision before money moves.
 
----
+Before execution, Agent Atlas evaluates the available evidence, applicable policies, risk signals, permissions, and required approvals — then determines whether to proceed, proceed with constraints, request additional context, escalate for human review, or decline.
 
-## System model
-
-```
-[Inputs / Signals]
-        ↓
-[Policy Engine]  ← policy-as-data
-        ↓
-[Simulation Layer]  ← evaluate outcomes before action
-        ↓
-[Decision Engine]  ← approve / constrain / deny
-        ↓
-[Execution]
-        ↓
-[Outcome Tracking]
-        ↑
-   [Feedback Loop]
-```
+Every recommendation is connected to the supporting evidence, applicable policies, execution state, approvals, and eventual outcome.
 
 ---
 
-## Core concepts
+## Core Principles
 
-- Decisions are **first simulated, then executed**
-- Policies are **data, not hardcoded logic**
-- Every decision is **traceable and explainable**
-- Systems **improve continuously through feedback**
-
----
-
-## Roadmap
-
-Agent Atlas is designed as a framework, not a single agent. Current and planned coverage:
-
-- ✅ ACH operations — end-to-end ACH agent handling risk and failure detection, cause analysis, recommendation, retry decisioning, recovery, disputes, and reconciliation
-- ✅ Agentic Commerce — policy-governed autonomous purchasing decisions, consent enforcement, and dispute resolution
-- ⏳ Additional operational workflows as design partners onboard
+- **Actions are evaluated before execution.**
+- **Policies are data, not hardcoded logic.**
+- **Every decision is traceable and reconstructable.**
+- **Systems improve through operational feedback.**
 
 ---
 
 ## Status
 
-Actively building with design partners across payments and commerce operations.
+- Production beta with enterprise design partners
+- Live across ACH operations and agentic commerce workflows
+- Expanding to additional mission-critical workflows with design partners
 
-This repository shares system design and working patterns.
-Implementation lives in private repos.
+This repository shares the product vision. Production implementation remains private.
 
 ---
 
 ## About
 
-Created by Amanda Hua
-Founder & CEO, Azenticbot
+Created by **Amanda Hua**
 
-Building systems for real-time decisioning across payments, operations, and AI workflows.
+Founder, **Apova, Inc.**
+
+Amanda has spent more than twenty years building mission-critical platforms across PayPal, Apple, Ripple, Rivian, and Anywhere Real Estate.
+
+Website: https://apova.ai
 
 ---
 
-*Last updated: June 2026*
+*Last updated: July 2026*
